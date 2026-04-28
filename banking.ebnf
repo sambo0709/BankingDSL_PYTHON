@@ -1,0 +1,45 @@
+#We certify that the file I am submitting is all my own work.
+#None of it is copied from any source or any person.
+#Signed:
+#Date: 
+#Author: 
+#Date: April 2026
+#Class: CSS335
+#Assignment: Final Project
+#File Name: banking.ebnf
+#Description: EBNF grammar for the Banking DSL programming
+#  language. Defines statements for deposit, withdraw,
+#  balance, create, and exit.
+#References:rubyClac folder.
+
+digit = "0" | "1" | "2" | "3" | "4"
+      | "5" | "6" | "7" | "8" | "9" ;
+
+letter = "a" | "b" | "c" | "d" | "e" | "f" | "g"
+       | "h" | "i" | "j" | "k" | "l" | "m" | "n"
+       | "o" | "p" | "q" | "r" | "s" | "t" | "u"
+       | "v" | "w" | "x" | "y" | "z" | "A" | "B"
+       | "C" | "D" | "E" | "F" | "G" | "H" | "I"
+       | "J" | "K" | "L" | "M" | "N" | "O" | "P"
+       | "Q" | "R" | "S" | "T" | "U" | "V" | "W"
+       | "X" | "Y" | "Z" ;
+
+integer = digit, { digit } ;
+float = digit, { digit }, ".", digit, { digit } ;
+amount = float | integer ;
+
+first_name = letter, { letter } ;
+last_name = letter, { letter } ;
+account_id = letter, letter, digit, digit, digit,
+             digit, digit, digit ;
+
+deposit_stmt  = "deposit", account_id, amount ;
+withdraw_stmt = "withdraw", account_id, amount ;
+balance_stmt  = "balance", account_id ;
+create_stmt   = "create", first_name, last_name, amount ;
+exit_stmt     = "exit" | "quit" | "end" ;
+
+statement = deposit_stmt | withdraw_stmt | balance_stmt
+          | create_stmt | exit_stmt ;
+
+program = { statement } ;
