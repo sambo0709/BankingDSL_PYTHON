@@ -11,10 +11,9 @@
 # None of it is copied from any source or any person.
 # Signed: 
 
-import random
-
 #BANKACCOUNT
 
+import random
 
 class BankAccount:
 

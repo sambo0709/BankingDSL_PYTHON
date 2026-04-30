@@ -11,7 +11,7 @@
 # None of it is copied from any source or any person.
 # Signed: 
 
-from token import Token
+from banking_token import Token
 from ast_node import ASTNode
 
 # PARSER

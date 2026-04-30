@@ -12,7 +12,7 @@
 # Signed: 
 
 import re
-from token import Token
+from banking_token import Token
 
 #LEXER
 
