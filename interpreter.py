@@ -1,4 +1,4 @@
-# Author: 
+# Author: Temesgen Gadore
 # Date: April 2026
 # Class: CSS335
 # Assignment: Final Project
@@ -6,10 +6,10 @@
 # Description: Defines the Interpreter class for the Banking
 #              DSL. Walks the AST produced by the Parser and
 #              executes each node against the accounts list.
-# References:
+# References:Used the calcprogram from class for structure 
 # We certify that the Python file I am submitting is my own.
 # None of it is copied from any source or any person.
-# Signed: 
+# Signed: Temesgen Gadore
 
 from ast_node import ASTNode
 from bank_account import BankAccount

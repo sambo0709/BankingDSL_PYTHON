@@ -1,4 +1,4 @@
-# Author: 
+# Author: Temesgen Gadore
 # Date: April 2026
 # Class: CSS335
 # Assignment: Final Project
@@ -6,10 +6,10 @@
 # Description: Defines the Parser class for the Banking DSL.
 #              Takes the token list from the Lexer and builds
 #              an Abstract Syntax Tree (AST) from it.
-# References:
+# References:Calc program from class and lecture notes.
 # We certify that the Python file I am submitting is my own.
 # None of it is copied from any source or any person.
-# Signed: 
+# Signed: Temesgen Gadore
 
 from banking_token import Token
 from ast_node import ASTNode

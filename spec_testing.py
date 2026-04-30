@@ -1,4 +1,4 @@
-# Author: 
+# Author: Samuel Boye, Temesgen Gadore
 # Date: April 2026
 # Class: CSS335
 # Assignment: Final Project
@@ -6,10 +6,11 @@
 # Description: DSL specification tests for the Banking DSL.
 #              Tests deposit, withdraw, balance, and account
 #              creation using Python's unittest module.
-# References:
+# References: pyhton unittest documentation. 
+# https://docs.python.org/3/library/unittest.html
 # We certify that the Python file I am submitting is my own.
 # None of it is copied from any source or any person.
-# Signed: 
+# Signed: Temesgen Gadore, Samuel Boye
 
 import unittest
 from bank_account import BankAccount

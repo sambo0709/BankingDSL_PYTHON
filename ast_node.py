@@ -1,4 +1,4 @@
-# Author: 
+# Author: Temesgen Gadore
 # Date: April 2026
 # Class: CSS335
 # Assignment: Final Project
@@ -6,10 +6,10 @@
 # Description: Defines the ASTNode class for the Banking DSL.
 #              Represents a single node in the Abstract Syntax
 #              Tree built by the Parser.
-# References:
+# References:lecture notes
 # We certify that the Python file I am submitting is my own.
 # None of it is copied from any source or any person.
-# Signed:
+# Signed: Temesgen Gadore
 
 # ASTNODE
 

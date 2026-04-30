@@ -1,15 +1,15 @@
-# Author: 
-# Date: April 2026
+# Author: Samuel Boye
+# Date: 24 April 2026
 # Class: CSS335
 # Assignment: Final Project
 # File Name: bank_account.py
 # Description: Defines the BankAccount class for the Banking
 #              DSL. Handles account data and operations:
 #              deposit, withdraw, and balance check.
-# References:
+# References:Calc program from class and lecture notes.
 # We certify that the Python file I am submitting is my own.
 # None of it is copied from any source or any person.
-# Signed: 
+# Signed: Samuel Boye
 
 #BANKACCOUNT
 

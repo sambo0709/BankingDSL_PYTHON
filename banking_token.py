@@ -1,15 +1,15 @@
-# Author: 
-# Date: April 2026
+# Author: Samuel Boye
+# Date: 25 April 2026
 # Class: CSS335
 # Assignment: Final Project
 # File Name: token.py
 # Description: Defines the Token class for the Banking DSL.
 #              Stores token type constants and type/value
 #              pairs produced by the Lexer.
-# References:
+# References: Calc program from class and lecture notes.
 # We certify that the Python file I am submitting is my own.
 # None of it is copied from any source or any person.
-# Signed: 
+# Signed: Samuel Boye
 
 #TOKEN           
 

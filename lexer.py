@@ -1,15 +1,15 @@
-# Author: 
-# Date: April 2026
+# Author: Samuel Boye
+# Date: 23April 2026
 # Class: CSS335
 # Assignment: Final Project
 # File Name: lexer.py
 # Description: Defines the Lexer class for the Banking DSL.
 #              Tokenizes a line of input into a list of
 #              Token objects for the Parser to consume.
-# References:
+# References:Calc program from class and lecture notes.
 # We certify that the Python file I am submitting is my own.
 # None of it is copied from any source or any person.
-# Signed: 
+# Signed: Samuel Boye
 
 import re
 from banking_token import Token

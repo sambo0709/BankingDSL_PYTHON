@@ -1,5 +1,5 @@
-# Author: 
-# Date: April 2026
+# Author: Samuel Boye, Temesgen Gadore
+# Date: 22 April 2026
 # Class: CSS335
 # Assignment: Final Project
 # File Name: banking.py
@@ -7,10 +7,11 @@
 #              Initializes accounts, runs the menu loop, and
 #              passes user input through the full pipeline:
 #              Lexer -> Parser -> AST -> Interpreter.
-# References:
+# References: used the Calc program from class and lecture notes as a reference for the structure of the main function 
+# and the overall flow of the program.
 # We certify that the Python file I am submitting is my own.
 # None of it is copied from any source or any person.
-# Signed: 
+# Signed: Samuel Boye, Temesgen Gadore
 
 from bank_account import BankAccount
 from lexer import Lexer
@@ -86,7 +87,7 @@ def main():
         print_menu()
         user_input = input().strip()
 
-    print("\nThank you for using Banking. Goodbye!")
+    print("\nThank you for using Banking by Sam and Teme. Goodbye!")
 
 
 if __name__ == "__main__":
