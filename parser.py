@@ -7,7 +7,7 @@
 #              Takes the token list from the Lexer and builds
 #              an Abstract Syntax Tree (AST) from it.
 # References:
-# I certify that the Python file I am submitting is my own.
+# We certify that the Python file I am submitting is my own.
 # None of it is copied from any source or any person.
 # Signed: 
 

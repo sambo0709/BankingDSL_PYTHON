@@ -7,7 +7,7 @@
 #              Represents a single node in the Abstract Syntax
 #              Tree built by the Parser.
 # References:
-# I certify that the Python file I am submitting is my own.
+# We certify that the Python file I am submitting is my own.
 # None of it is copied from any source or any person.
 # Signed:
 

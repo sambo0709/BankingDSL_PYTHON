@@ -7,7 +7,7 @@
 #              Tests deposit, withdraw, balance, and account
 #              creation using Python's unittest module.
 # References:
-# I certify that the Python file I am submitting is my own.
+# We certify that the Python file I am submitting is my own.
 # None of it is copied from any source or any person.
 # Signed: 
 

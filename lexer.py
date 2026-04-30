@@ -7,7 +7,7 @@
 #              Tokenizes a line of input into a list of
 #              Token objects for the Parser to consume.
 # References:
-# I certify that the Python file I am submitting is my own.
+# We certify that the Python file I am submitting is my own.
 # None of it is copied from any source or any person.
 # Signed: 
 
